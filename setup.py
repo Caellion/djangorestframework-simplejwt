@@ -47,7 +47,7 @@ extras_require["dev"] = (
 setup(
     name="djangorestframework_simplejwt",
     use_scm_version={"version_scheme": "post-release"},
-    setup_requires=["setuptools_scm"],
+    setup_requires=["setuptools_scm<8"],
     url="https://github.com/jazzband/djangorestframework-simplejwt",
     license="MIT",
     description="A minimal JSON Web Token authentication plugin for Django REST Framework",
